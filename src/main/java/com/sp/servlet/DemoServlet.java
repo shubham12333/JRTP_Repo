@@ -4,6 +4,6 @@ public class DemoServlet extends HttpServlet
 {
 	public void doGet(HttpServletRequest req , HttpServletResponse resp)throws ServletException,IOException
 	{
-			
+		PrintWriter pw = resp.getWriter();	
 	}
 }
